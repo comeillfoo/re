@@ -1,2 +1,2 @@
 #!/usr/bin/bash
-grep -ioP "[a-z]+ [a-z]+" $1
+grep -ioP "^[a-z]"\|" \K[a-z]" $1
